@@ -1,0 +1,62 @@
+/*
+	Name: Ryley Green
+	Page: styles.css
+	Assignment: Current Weather
+	Date: 5/5/2022
+*/
+body {
+  background-image: url(../images/cloud.jpg);
+  background-size: auto;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0, 10, 100);
+}
+
+#info {
+  font-size: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 20px;
+  font-size: 75px;
+}
+
+.container {
+  background-color: rgba(185, 185, 185, 0.5);
+  top: 150px;
+  width: 50%;
+  position: relative;
+  padding: 20px;
+  box-shadow: 5px 5px 25px 8px rgba(0, 0, 0, 0.2),
+    -5px -5px 25px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.containerTwo {
+  background-color: rgba(185, 185, 185, 0.5);
+  width: 50%;
+  position: relative;
+  padding: 20px;
+  box-shadow: 5px 5px 25px 8px rgba(0, 0, 0, 0.2),
+    -5px -5px 25px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.mb-3 {
+  padding-top: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+.red {
+  color: red;
+  background-color: rgba(255, 255, 0, 0.4);
+}
+
+#btnPad {
+  padding-bottom: 15px;
+}
